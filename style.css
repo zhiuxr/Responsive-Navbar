@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: source sans;
+}
+@font-face {
+    font-family: source sans;
+    src: url(font/SourceSansPro-Black.otf) format(opentype);
+}
