@@ -1,10 +1,10 @@
-const btnt = document.querySelector('.btnt')
-const btnticon = document.querySelector('.btn2 i')
+const btn = document.querySelector('.btnt')
+const btnticon = document.querySelector('.btnt i')
 const menu = document.querySelector('.menu')
 
-btnt.onclick = function () {
+btn.onclick = function () {
     menu.classList.toggle('op')
-    const isOpen = menu.classList.toggle('op')
+    const isOpen = menu.classList.toggle('open')
 
     btnticon.classList = isOpen
     ? 'fa-solid fa-xmark'

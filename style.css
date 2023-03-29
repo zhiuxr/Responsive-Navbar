@@ -115,3 +115,24 @@ a:hover {
         display: block;
     }
 }
+@media (max-width: 576px){
+    .menu {
+        left: 2rem;
+        width: unset;
+    }
+}
+section#home {
+    height: calc(100vh - 700px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+}
+section#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
